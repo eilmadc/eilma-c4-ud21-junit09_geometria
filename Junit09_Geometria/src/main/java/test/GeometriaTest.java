@@ -21,6 +21,8 @@ class GeometriaTest {
 	
 	Geometria geo;
 	/*
+	 * 
+	 *TODO: dev BeforeAll
 	 * @BeforeAll public static void testbeforeGeometria{
 	 * System.out.println("beforeClass"); }
 	 */
@@ -106,7 +108,7 @@ class GeometriaTest {
 		assertEquals(esperado, result);
 	}
 	
-	
+	//TODO: Complete the method
 	@AfterEach
 	public void after() {
 		System.out.println("after()");
@@ -116,6 +118,7 @@ class GeometriaTest {
 	
 	
 	/*
+	 * TODO: dev AfterAll
 	 * @AfterAll public static void afterClass{ System.out.println("afterClass"); }
 	 */
 	
